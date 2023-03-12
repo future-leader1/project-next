@@ -1,8 +1,6 @@
+// signin/page.tsx
+import AuthForm from "@/components/Authform";
 
-const Signin = () => {
-  return (
-    <div>signin</div>
-  )
+export default function Register() {
+  return <AuthForm mode="signin" />;
 }
-
-export default Signin
